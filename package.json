@@ -1,0 +1,25 @@
+{
+  "name": "historical-investigator-mcp",
+  "version": "1.1.0",
+  "description": "A beginner-friendly MCP server for searching Library of Congress historical records",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "library-of-congress",
+    "historical-research"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
